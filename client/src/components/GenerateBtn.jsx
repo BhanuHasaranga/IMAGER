@@ -18,7 +18,7 @@ function GenerateBtn() {
     }
 
   return (
-    <div className='pb-16 text-center'
+    <motion.div className='pb-16 text-center'
       initial={{opacity: 0.2, y:100}} 
       transition={{duration: 1}}
       whileInView={{opacity: 1, y:0}}
@@ -38,7 +38,7 @@ function GenerateBtn() {
         Generate Images
         <img src={assets.star_group} alt="" className='h-6'/>
       </motion.button>
-    </div>
+    </motion.div>
   )
 }
 
