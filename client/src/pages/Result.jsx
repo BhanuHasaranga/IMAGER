@@ -23,7 +23,6 @@ function Result() {
         }
       }
       setLoading(false)
-      setInput('')
     }
 
   return (
